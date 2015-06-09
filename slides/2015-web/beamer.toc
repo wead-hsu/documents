@@ -1,0 +1,10 @@
+\beamer@endinputifotherversion {3.24pt}
+\beamer@sectionintoc {1}{Background}{4}{0}{1}
+\beamer@subsectionintoc {1}{1}{Kowledge Graph}{5}{0}{1}
+\beamer@subsectionintoc {1}{2}{Knowledge Inference}{6}{0}{1}
+\beamer@subsectionintoc {1}{3}{Methods}{7}{0}{1}
+\beamer@sectionintoc {2}{Representation learning for knowledge graph}{8}{0}{2}
+\beamer@subsectionintoc {2}{1}{Framework}{9}{0}{2}
+\beamer@subsectionintoc {2}{2}{Methods based on reconstruction error}{11}{0}{2}
+\beamer@subsectionintoc {2}{3}{Methods based on ranking loss}{12}{0}{2}
+\beamer@subsectionintoc {2}{4}{Pros and Cons}{14}{0}{2}

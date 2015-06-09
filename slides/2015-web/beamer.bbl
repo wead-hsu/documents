@@ -1,0 +1,39 @@
+\begin{thebibliography}{}
+
+\bibitem[Bordes et~al., 2013]{bordes2013translating}
+Bordes, A., Usunier, N., Garcia-Duran, A., Weston, J., and Yakhnenko, O.
+  (2013).
+\newblock Translating embeddings for modeling multi-relational data.
+\newblock In {\em Advances in Neural Information Processing Systems}, pages
+  2787--2795.
+
+\bibitem[Brocheler et~al., 2012]{brocheler2012probabilistic}
+Brocheler, M., Mihalkova, L., and Getoor, L. (2012).
+\newblock Probabilistic similarity logic.
+\newblock {\em arXiv preprint arXiv:1203.3469}.
+
+\bibitem[Lao et~al., 2011]{lao2011random}
+Lao, N., Mitchell, T., and Cohen, W.~W. (2011).
+\newblock Random walk inference and learning in a large scale knowledge base.
+\newblock In {\em Proceedings of the Conference on Empirical Methods in Natural
+  Language Processing}, pages 529--539. Association for Computational
+  Linguistics.
+
+\bibitem[Nickel et~al., 2011]{nickel2011three}
+Nickel, M., Tresp, V., and Kriegel, H.-P. (2011).
+\newblock A three-way model for collective learning on multi-relational data.
+\newblock In {\em Proceedings of the 28th international conference on machine
+  learning (ICML-11)}, pages 809--816.
+
+\bibitem[Richardson and Domingos, 2006]{richardson2006markov}
+Richardson, M. and Domingos, P. (2006).
+\newblock Markov logic networks.
+\newblock {\em Machine learning}, 62(1-2):107--136.
+
+\bibitem[Socher et~al., 2013]{socher2013reasoning}
+Socher, R., Chen, D., Manning, C.~D., and Ng, A. (2013).
+\newblock Reasoning with neural tensor networks for knowledge base completion.
+\newblock In {\em Advances in Neural Information Processing Systems}, pages
+  926--934.
+
+\end{thebibliography}
