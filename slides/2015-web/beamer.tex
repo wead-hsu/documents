@@ -140,7 +140,7 @@
 		\begin{itemize}
 			\item Learning entity and relation embeddings in hidden vector spaces.
 			\item Define a fitness funtion to determine the certainty of entity-relation-entity pairs.
-			\item Define an objective funtion to determine the certainty of entity-relation-entity pairs.
+			\item Define an objective funtion and use the facts dataset to learn the model parameters.
 		\end{itemize}
 	\end{block}
 	\begin{alertblock}{Prediction}
@@ -179,9 +179,7 @@
 			\includegraphics[height=0.20\textwidth]{5.eps}
 		\end{figure}
 	\item Learn based on reconstruction error:
-		\begin{equation}
-			\min_{e_i,R_k}\sum_k\sum_i\sum_j{(y_{i,j}^k-f(e_i,r_k,e_j))^2+\lambda R}
-		\end{equation}
+		$$\min_{e_i,R_k}\sum_k\sum_i\sum_j{(y_{i,j}^k-f(e_i,r_k,e_j))^2+\lambda R}$$
 	\begin{exampleblock}{assumption}
 		It is assumed that all pairs not contained in dataset are negative.
 	\end{exampleblock}
@@ -196,13 +194,9 @@
 		\begin{figure}
 			\includegraphics[width=0.60\textwidth,height=0.30\textwidth]{7.eps}
 		\end{figure}
-		\begin{equation}
-			f(e_i,r_k,e_j)=U_k^Tg(e_i^TW_k^{[1:K]}e_j + V_k[e_i:e_j] + b_k)
-		\end{equation}
+		$$f(e_i,r_k,e_j)=U_k^Tg(e_i^TW_k^{[1:K]}e_j + V_k[e_i:e_j] + b_k)$$
 	\item Learn based on ranking loss:
-		\begin{equation}
-			\min_{e_i,R_k}\sum_{t^+ \in O}\sum_{t^- \in D}{(\lambda + f(e_i,r_k,e_j) - f(e'_i,r_k,e'_j))}
-		\end{equation}
+		$$\min_{e_i,R_k}\sum_{t^+ \in O}\sum_{t^- \in D}{(\lambda + f(e_i,r_k,e_j) - f(e'_i,r_k,e'_j))}$$
 	\begin{exampleblock}{assumption}
 		It is assumed that all pairs not contained in dataset are negative.
 	\end{exampleblock}
@@ -217,9 +211,7 @@
 			\includegraphics[height=0.20\textwidth]{6.eps}
 		\end{figure}
 	\item Learn based on ranking loss:
-		\begin{equation}
-			\min_{e_i,R_k}\sum_{t^+ \in O}\sum_{t^- \in D}{(\lambda + f(e_i,r_k,e_j) - f(e'_i,r_k,e'_j))}
-		\end{equation}
+		$$\min_{e_i,R_k}\sum_{t^+ \in O}\sum_{t^- \in D}{(\lambda + f(e_i,r_k,e_j) - f(e'_i,r_k,e'_j))}$$
 	\begin{exampleblock}{assumption}
 		It is assumed that pairs not contained in dataset are partially negative.
 	\end{exampleblock}
@@ -228,7 +220,7 @@
 
 \section{Recent Advance}
 
-\subsection{Consider Long-range Interation}
+\subsection{Consider Long-Range Interation}
 \begin{frame}
 \frametitle{Recent Advance: Consider Long-range Interation}
 	Previous approaches only consider triples information, it's better to take long-range information into consideration.

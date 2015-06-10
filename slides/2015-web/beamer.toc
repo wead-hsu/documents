@@ -8,5 +8,5 @@
 \beamer@subsectionintoc {2}{2}{Methods based on Reconstruction Error}{11}{0}{2}
 \beamer@subsectionintoc {2}{3}{Methods based on Ranking Loss}{12}{0}{2}
 \beamer@sectionintoc {3}{Recent Advance}{14}{0}{3}
-\beamer@subsectionintoc {3}{1}{Consider Long-range Interation}{15}{0}{3}
+\beamer@subsectionintoc {3}{1}{Consider Long-Range Interation}{15}{0}{3}
 \beamer@sectionintoc {4}{Pros and Cons}{18}{0}{4}
