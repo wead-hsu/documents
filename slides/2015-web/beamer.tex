@@ -44,7 +44,7 @@
 \AtBeginSection[]
 {
 	\begin{frame}
-	\frametitle{Table}
+	\frametitle{Table of Contents}
 	\tableofcontents[currentsection]
 	\end{frame}
 }
@@ -61,7 +61,7 @@
 	\begin{columns}[onlytextwidth]
 		\begin{column}{0.45\textwidth}
 			\begin{figure}
-				\includegraphics[width=.45\textwidth,natwidth=610,natheight=610]{2.eps}
+				\includegraphics[width=.85\textwidth]{2.eps}
 			\end{figure}
 		\end{column}
 		\begin{column}{0.45\textwidth}
@@ -89,7 +89,7 @@
 	\begin{columns}[onlytextwidth]
 		\begin{column}{0.45\textwidth}
 			\begin{figure}
-				\includegraphics[width=.45\textwidth,natwidth=610,natheight=610]{4.eps}
+				\includegraphics[width=.85\textwidth]{4.eps}
 			\end{figure}
 		\end{column}
 		\begin{column}{0.45\textwidth}
@@ -128,7 +128,7 @@
 \end{itemize}
 \end{frame}
 
-\section{Representation learning for knowledge graph}
+\section{Representation Learning for Knowledge Graph}
 
 \subsection{Framework}
 \begin{frame}
@@ -139,7 +139,7 @@
 	\begin{block}{Leanring}
 		\begin{itemize}
 			\item Learning entity and relation embeddings in hidden vector spaces.
-			\item Define an fitness funtion to determine the certainty of entity-relation-entity pairs.
+			\item Define a fitness funtion to determine the certainty of entity-relation-entity pairs.
 			\item Define an objective funtion to determine the certainty of entity-relation-entity pairs.
 		\end{itemize}
 	\end{block}
@@ -158,7 +158,7 @@
 	\begin{block}{Leanring}
 		\begin{itemize}
 			\item Learning entity and relation embeddings in hidden vector spaces.
-			\item Define an fitness funtion to determine the certainty of entity-relation-entity pairs.
+			\item Define a fitness funtion to determine the certainty of entity-relation-entity pairs.
 			\item Define an objective funtion and use the facts dataset to learn the model parameters.
 		\end{itemize}
 	\end{block}
@@ -170,13 +170,13 @@
 	\end{alertblock}
 \end{frame}
 
-\subsection{Methods based on reconstruction error}
+\subsection{Methods based on Reconstruction Error}
 \begin{frame}
 \frametitle{RESCAL: reconstruction error}
 \begin{itemize}
 	\item Representation in hidden vector/matrix space and the corresponding fitness function:
 		\begin{figure}
-			\includegraphics[width=0.90\textwidth,height=0.30\textwidth]{5.eps}
+			\includegraphics[height=0.20\textwidth]{5.eps}
 		\end{figure}
 	\item Learn based on reconstruction error:
 		\begin{equation}
@@ -188,9 +188,9 @@
 \end{itemize}
 \end{frame}
 
-\subsection{Methods based on ranking loss}
+\subsection{Methods based on Ranking Loss}
 \begin{frame}
-\frametitle{NTN: ranking loss}
+\frametitle{Neural Tensor Network: ranking loss}
 \begin{itemize}
 	\item Representation in hidden vector/matrix space and the corresponding fitness function:
 		\begin{figure}
@@ -199,7 +199,7 @@
 		\begin{equation}
 			f(e_i,r_k,e_j)=U_k^Tg(e_i^TW_k^{[1:K]}e_j + V_k[e_i:e_j] + b_k)
 		\end{equation}
-	\item Learn based on reconstruction error:
+	\item Learn based on ranking loss:
 		\begin{equation}
 			\min_{e_i,R_k}\sum_{t^+ \in O}\sum_{t^- \in D}{(\lambda + f(e_i,r_k,e_j) - f(e'_i,r_k,e'_j))}
 		\end{equation}
@@ -214,7 +214,7 @@
 \begin{itemize}
 	\item Representation in hidden vector space and the corresponding fitness function:
 		\begin{figure}
-			\includegraphics[width=0.90\textwidth,height=0.30\textwidth]{6.eps}
+			\includegraphics[height=0.20\textwidth]{6.eps}
 		\end{figure}
 	\item Learn based on ranking loss:
 		\begin{equation}
@@ -226,7 +226,48 @@
 \end{itemize}
 \end{frame}
 
-\subsection{Pros and Cons}
+\section{Recent Advance}
+
+\subsection{Consider Long-range Interation}
+\begin{frame}
+\frametitle{Recent Advance: Consider Long-range Interation}
+	Previous approaches only consider triples information, it's better to take long-range information into consideration.
+	\begin{itemize}
+		\item Relation between Relations \citep{bowman2014recursive}
+		\item Combining Long-Range Interation \citep{wu2015structured}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Relation between Relations \citep{bowman2014recursive}}
+\begin{itemize}
+	\item This model leaves out the representation of entities and concern the relation between relations.
+		\begin{figure}
+			\includegraphics[width=0.45\textwidth]{8.eps}
+		\end{figure}
+	\item It tries to minimize the difference between the infered relation $v_r(\pi)$ (w.r.t. path $\pi$) and the single relation $r$.
+		$$v_r(\pi)=RNN(\pi)$$
+		$$f(\pi_r,r) = sigmoid(v_r(\pi), r)$$
+	\item And negative samples are used to maximize the margin.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Combining Long-Range Interation \citep{wu2015structured}}
+	\begin{itemize}
+		\item This paper jointly utilizes the triple information and long-range interaction in knowledge base.
+			\begin{figure}
+				\centering
+				\includegraphics[height=0.15\textwidth]{9.eps}
+			\end{figure}
+		\item Ranking loss for triples:
+			$$\min_{e_i,R_k}\sum_{t^+ \in O}\sum_{t^- \in D}{(\lambda + f(e_i,r_k,e_j) - f(e'_i,r_k,e'_j))}$$
+		\item And long-range loss:
+			$$f(\pi_r,r) = L(v_r(\pi), r)$$
+	\end{itemize}
+\end{frame}
+
+\section{Pros and Cons}
 \begin{frame}
 \frametitle{Prons and Cons}
 \begin{itemize}
@@ -237,7 +278,7 @@
 		\end{enumerate}
 	\item Cons
 		\begin{enumerate}
-			\item It is not logical: we can capture the co-occurrence information but not logical properties of relation.
+			\item It is not logical: we can capture the co-occurrence information but not logical properties of relation, e.g. transitivity, reflexivity..
 			\item It is not precise: data-driven methods will be noisy-prone.
 		\end{enumerate}
 \end{itemize}

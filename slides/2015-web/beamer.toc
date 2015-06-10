@@ -3,8 +3,10 @@
 \beamer@subsectionintoc {1}{1}{Kowledge Graph}{5}{0}{1}
 \beamer@subsectionintoc {1}{2}{Knowledge Inference}{6}{0}{1}
 \beamer@subsectionintoc {1}{3}{Methods}{7}{0}{1}
-\beamer@sectionintoc {2}{Representation learning for knowledge graph}{8}{0}{2}
+\beamer@sectionintoc {2}{Representation Learning for Knowledge Graph}{8}{0}{2}
 \beamer@subsectionintoc {2}{1}{Framework}{9}{0}{2}
-\beamer@subsectionintoc {2}{2}{Methods based on reconstruction error}{11}{0}{2}
-\beamer@subsectionintoc {2}{3}{Methods based on ranking loss}{12}{0}{2}
-\beamer@subsectionintoc {2}{4}{Pros and Cons}{14}{0}{2}
+\beamer@subsectionintoc {2}{2}{Methods based on Reconstruction Error}{11}{0}{2}
+\beamer@subsectionintoc {2}{3}{Methods based on Ranking Loss}{12}{0}{2}
+\beamer@sectionintoc {3}{Recent Advance}{14}{0}{3}
+\beamer@subsectionintoc {3}{1}{Consider Long-range Interation}{15}{0}{3}
+\beamer@sectionintoc {4}{Pros and Cons}{18}{0}{4}

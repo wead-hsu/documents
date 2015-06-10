@@ -7,6 +7,11 @@ Bordes, A., Usunier, N., Garcia-Duran, A., Weston, J., and Yakhnenko, O.
 \newblock In {\em Advances in Neural Information Processing Systems}, pages
   2787--2795.
 
+\bibitem[Bowman et~al., 2014]{bowman2014recursive}
+Bowman, S.~R., Potts, C., and Manning, C.~D. (2014).
+\newblock Recursive neural networks for learning logical semantics.
+\newblock {\em arXiv preprint arXiv:1406.1827}.
+
 \bibitem[Brocheler et~al., 2012]{brocheler2012probabilistic}
 Brocheler, M., Mihalkova, L., and Getoor, L. (2012).
 \newblock Probabilistic similarity logic.
@@ -35,5 +40,11 @@ Socher, R., Chen, D., Manning, C.~D., and Ng, A. (2013).
 \newblock Reasoning with neural tensor networks for knowledge base completion.
 \newblock In {\em Advances in Neural Information Processing Systems}, pages
   926--934.
+
+\bibitem[Wu et~al., 2015]{wu2015structured}
+Wu, F., Song, J., Yang, Y., Li, X., Zhang, Z., and Zhuang, Y. (2015).
+\newblock Structured embedding via pairwise relations and long-range
+  interactions in knowledge base.
+\newblock In {\em Twenty-Ninth AAAI Conference on Artificial Intelligence}.
 
 \end{thebibliography}

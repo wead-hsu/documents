@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2015.6.8)  9 JUN 2015 19:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2015.6.8)  10 JUN 2015 15:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1266,7 +1266,7 @@ File: figures/5.eps Graphic file (type eps)
 ]
 File: figures/7.eps Graphic file (type eps)
  <figures/7.eps>
-Overfull \vbox (1.22168pt too high) detected at line 210
+Overfull \vbox (2.66618pt too high) detected at line 210
  []
 
 [12
@@ -1275,11 +1275,26 @@ Overfull \vbox (1.22168pt too high) detected at line 210
 File: figures/6.eps Graphic file (type eps)
  <figures/6.eps> [13
 
-] [14
+] (./beamer.toc) [14
 
-] (./beamer.bbl) [15
+] [15
 
 ]
+File: figures/8.eps Graphic file (type eps)
+ <figures/8.eps> [16
+
+]
+File: figures/9.eps Graphic file (type eps)
+
+<figures/9.eps> [17
+
+] (./beamer.toc) [18
+
+] [19
+
+] (./beamer.bbl [20
+
+]) [21]
 \tf@nav=\write7
 \openout7 = `beamer.nav'.
 
@@ -1289,27 +1304,28 @@ File: figures/6.eps Graphic file (type eps)
 \tf@snm=\write9
 \openout9 = `beamer.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 248.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 248.
- (./beamer.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 248.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 248.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 289.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 289.
+
+(./beamer.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 289.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 289.
 Package rerunfilecheck Info: File `beamer.out' has not changed.
-(rerunfilecheck)             Checksum: 15B7766DE7F74A0F3A73B98BC1B9F268;597.
+(rerunfilecheck)             Checksum: DE0686A6D67FA08746DA191544E81163;713.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 248.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 289.
  ) 
 Here is how much of TeX's memory you used:
- 16904 strings out of 493305
- 313113 string characters out of 6139898
- 428390 words of memory out of 5000000
- 19913 multiletter control sequences out of 15000+600000
+ 16936 strings out of 493305
+ 313498 string characters out of 6139898
+ 433662 words of memory out of 5000000
+ 19939 multiletter control sequences out of 15000+600000
  8233 words of font info for 33 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 49i,21n,69p,470b,862s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,21n,69p,470b,964s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on beamer.dvi (15 pages, 362368 bytes).
+Output written on beamer.dvi (21 pages, 542848 bytes).

@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: beamer.aux
 The style file: apalike.bst
 Database file #1: ref.bib
-You've used 6 entries,
+You've used 8 entries,
             1935 wiz_defined-function locations,
-            507 strings with 4833 characters,
-and the built_in function-call counts, 3090 in all, are:
-= -- 315
-> -- 118
+            517 strings with 5257 characters,
+and the built_in function-call counts, 3887 in all, are:
+= -- 385
+> -- 169
 < -- 5
-+ -- 42
-- -- 40
-* -- 235
-:= -- 486
-add.period$ -- 19
-call.type$ -- 6
-change.case$ -- 50
-chr.to.int$ -- 6
-cite$ -- 6
-duplicate$ -- 137
-empty$ -- 222
-format.name$ -- 48
-if$ -- 650
++ -- 60
+- -- 58
+* -- 302
+:= -- 633
+add.period$ -- 25
+call.type$ -- 8
+change.case$ -- 69
+chr.to.int$ -- 8
+cite$ -- 8
+duplicate$ -- 168
+empty$ -- 271
+format.name$ -- 68
+if$ -- 800
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 6
-newline$ -- 33
-num.names$ -- 18
-pop$ -- 62
+missing$ -- 8
+newline$ -- 43
+num.names$ -- 24
+pop$ -- 86
 preamble$ -- 1
-purify$ -- 50
+purify$ -- 69
 quote$ -- 0
-skip$ -- 109
+skip$ -- 127
 stack$ -- 0
-substring$ -- 235
-swap$ -- 44
+substring$ -- 259
+swap$ -- 46
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 36
+type$ -- 48
 warning$ -- 0
-while$ -- 26
+while$ -- 30
 width$ -- 0
-write$ -- 80
+write$ -- 104
