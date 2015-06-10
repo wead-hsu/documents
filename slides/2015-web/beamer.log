@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2015.6.8)  10 JUN 2015 15:45
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2015.6.8)  10 JUN 2015 15:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1292,9 +1292,14 @@ File: figures/9.eps Graphic file (type eps)
 
 ] [19
 
-] (./beamer.bbl [20
+] (./beamer.bbl) [20
 
-]) [21]
+] [21
+
+
+] [22
+
+]
 \tf@nav=\write7
 \openout7 = `beamer.nav'.
 
@@ -1304,12 +1309,12 @@ File: figures/9.eps Graphic file (type eps)
 \tf@snm=\write9
 \openout9 = `beamer.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 281.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 281.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 290.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 290.
 
 (./beamer.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 281.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 281.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 290.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 290.
 Package rerunfilecheck Info: File `beamer.out' has not changed.
 (rerunfilecheck)             Checksum: 233587CD561461042804748CB767D62E;713.
 
@@ -1317,15 +1322,15 @@ Package rerunfilecheck Info: File `beamer.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 281.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 290.
  ) 
 Here is how much of TeX's memory you used:
- 16936 strings out of 493305
- 313498 string characters out of 6139898
- 433662 words of memory out of 5000000
- 19939 multiletter control sequences out of 15000+600000
+ 16953 strings out of 493305
+ 313967 string characters out of 6139898
+ 433786 words of memory out of 5000000
+ 19956 multiletter control sequences out of 15000+600000
  8233 words of font info for 33 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 49i,21n,69p,470b,964s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,21n,69p,470b,862s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on beamer.dvi (21 pages, 542792 bytes).
+Output written on beamer.dvi (22 pages, 563900 bytes).
