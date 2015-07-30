@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2015.6.8)  27 JUL 2015 13:24
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2015.6.8)  30 JUL 2015 14:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1223,88 +1223,92 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 
 ] [2
 
-] (./beamer.toc) [3
+] (./beamer.toc)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] (./beamer.toc) [4
+ [3
+
+]
+[4] (./beamer.toc) [5
 
 ]
 File: figures/2.eps Graphic file (type eps)
  <figures/2.eps>
-LaTeX Font Info:    Try loading font information for U+msa on input line 81.
+LaTeX Font Info:    Try loading font information for U+msa on input line 80.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 81.
+LaTeX Font Info:    Try loading font information for U+msb on input line 80.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 81.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 80.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-) [5
+) [6
 
 ]
 File: figures/4.eps Graphic file (type eps)
  <figures/4.eps>
-[6
+[7
 
-] [7
+] [8
 
-] (./beamer.toc) [8
-
-] [9
+] (./beamer.toc) [9
 
 ] [10
 
+] [11
+
 ]
 File: figures/5.eps Graphic file (type eps)
- <figures/5.eps> [11
+ <figures/5.eps> [12
 
 ]
 File: figures/7.eps Graphic file (type eps)
  <figures/7.eps>
-Overfull \vbox (2.66618pt too high) detected at line 204
+Overfull \vbox (2.66618pt too high) detected at line 203
  []
 
-[12
+[13
 
 ]
 File: figures/6.eps Graphic file (type eps)
- <figures/6.eps> [13
+ <figures/6.eps> [14
 
-] (./beamer.toc) [14
-
-] [15
+] (./beamer.toc) [15
 
 ] [16
 
-] (./beamer.toc) [17
+] [17
+
+] (./beamer.toc) [18
 
 ]
-[18
+[19
 
-] (./beamer.toc) [19
+] (./beamer.toc) [20
 
-] [20
+] [21
 
 ]
 File: figures/10.eps Graphic file (type eps)
- <figures/10.eps> [21
+ <figures/10.eps> [22
 
-] (./beamer.toc) [22
+] (./beamer.toc) [23
 
 ]
-[23
+[24
 
-] (./beamer.bbl) [24
-
-] [25
-
+] (./beamer.bbl) [25
 
 ] [26
+
+
+] [27
 
 ]
 \tf@nav=\write7
@@ -1316,27 +1320,27 @@ File: figures/10.eps Graphic file (type eps)
 \tf@snm=\write9
 \openout9 = `beamer.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 302.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 302.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 301.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 301.
  (./beamer.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 302.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 302.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 301.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 301.
 Package rerunfilecheck Info: File `beamer.out' has not changed.
-(rerunfilecheck)             Checksum: 28BBC5A63F3ED522D59FC48B29D593E3;732.
+(rerunfilecheck)             Checksum: AE69370C43780DBDA6C7F6A53D8CD688;733.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 302.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 301.
  ) 
 Here is how much of TeX's memory you used:
  16986 strings out of 493305
- 314505 string characters out of 6139898
- 429515 words of memory out of 5000000
+ 314506 string characters out of 6139898
+ 429596 words of memory out of 5000000
  19986 multiletter control sequences out of 15000+600000
  8233 words of font info for 33 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  49i,21n,69p,470b,862s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on beamer.dvi (26 pages, 627888 bytes).
+Output written on beamer.dvi (27 pages, 644772 bytes).
